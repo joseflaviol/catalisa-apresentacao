@@ -11,7 +11,7 @@ class SomadorIterativo implements Somador
         $soma = $a;
 
         while ($b > 0) {
-            $a++;
+            $soma++;
             $b--;
         }
 
