@@ -14,7 +14,7 @@ class SomadorNormalTest extends TestCase
         $this->somadorNormal = new SomadorNormal();
     }
 
-    public function testSomaCorretamente()
+    public function testConsegueSomarNormal()
     {
         $a = 1;
         $b = 2;
