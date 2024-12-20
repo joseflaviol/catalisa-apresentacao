@@ -6,9 +6,13 @@ use App\Interface\Somador;
 
 class Calculadora
 {
+    private Somador $somador;
+
     public function __construct(
-        private Somador $somador
-    ) {}
+        Somador $somador
+    ) {
+        $this->somador = $somador;
+    }
 
     public function soma(int $a, int $b)
     {
